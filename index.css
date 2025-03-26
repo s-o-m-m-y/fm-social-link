@@ -1,0 +1,78 @@
+@font-face {
+    font-family: Inter;
+    src: url(./assets/fonts/static/Inter-Regular.ttf);
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Inter;
+}
+body {
+    background-color: hsl(0, 0%, 8%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 12%
+    
+    
+}
+.container {
+    background-color: hsl(0, 0%, 12%);
+    display: flex;
+    flex-direction: column;
+    border-radius: 12px;
+    height:480px;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+    width: 300px;
+}
+.logo img {
+    width: 80px;
+    height: 80px;
+    border-radius: 40px;
+}
+.container h1 {
+    color: white;
+    margin-top: 15px;
+}
+.container h6 {
+    color: hsl(75, 94%, 57%);
+    margin: 10px;
+    text-align: center;
+}
+.container p {
+    color: white;
+    text-align: center;
+    margin: 15px;
+}
+.text {
+    white-space: nowrap;
+}
+label {
+    display: block;
+    margin-bottom: 8px;
+    
+}
+input, textarea, select {
+    background-color: hsl(0, 0%, 20%);
+    height: 35px;
+    width: 250px;
+    color: white;
+    text-align: center;
+    border-radius: 10px;
+    border: none;
+   cursor: pointer;
+}
+input:hover, textarea:hover, select:hover {
+    background-color: hsl(75, 94%, 57%);
+}
+.attribution {
+     font-size: 11px; text-align: center;
+     margin-top: 30px;
+     text-align: center;
+}
+.attribution a { color: hsl(228, 45%, 44%); }
+@media (min-width: )
