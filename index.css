@@ -37,6 +37,7 @@ body {
 .container h1 {
     color: white;
     margin-top: 15px;
+    white-space: nowrap;
 }
 .container h6 {
     color: hsl(75, 94%, 57%);
